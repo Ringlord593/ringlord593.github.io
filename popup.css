@@ -1,0 +1,54 @@
+body {
+	width: 300px;
+	
+	margin: 0;
+	background-color: #710A2C;
+}
+header{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+header h1 {
+	color: white;
+	text-align: left;
+	margin-left: 10px;
+}
+
+p {
+	font-family: Verdana;
+	font-size: 15px;
+}
+h3{
+	margin: 5px;
+}
+h4{
+	margin: 5px;
+}
+.course{
+	padding: 10px;
+	padding-left: 20px;
+	margin: 10px;
+	background-color: darkgray;
+}
+.assignment {
+	padding: 10px;
+	margin-left: 15px;
+	background-color: grey;
+}
+
+.assignment-card {
+	padding: 5px;
+	margin: 5px;
+	background-color: lightgray;
+}
+
+.header_banner {
+	width: 300px;
+}
+
+main {
+	background-color: white;
+	padding: 10px;
+	min-height: 150px;
+}

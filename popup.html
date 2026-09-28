@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Assignments</title>
+
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+
+<body>
+    <div class="header_banner">
+
+        <header>
+            <img src="/assets/icon_black.png" style="width:50px;height:50px; margin-left: 10px;">
+            <h1>Assignments</h1>
+        </header>
+    </div>
+    <main id="assignmentList">
+
+        <!-- Assignment Card -->
+        <div class="assignment-card">
+            <h3> Due Today </h3>
+            <div class="course"><h4>MAT 175</h4>
+                <div class=assignment>
+                    <div class="title">Lab 1 - Limits - Due Today</div>
+                    <div class="due"></div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="assignment-card">
+            <h3> Due Tomorrow </h3>
+            <div class="course">CSC 343</div>
+            <div class="title">Database Design Project</div>
+            <div class="due">Due Tomorrow</div>
+        </div>
+
+        <div class="assignment-card">
+            <h3> Upcoming Assignments</h3>
+            <div class="course">CYB 1003</div>
+            <div class="title">Chapter 3 Quiz</div>
+            <div class="due">Sep 30</div>
+        </div>
+        <button id="refreshButton">Refresh</button>
+
+
+    </main>
+    <script src="popup.js"></script>
+</body>
+
+
+</html>
